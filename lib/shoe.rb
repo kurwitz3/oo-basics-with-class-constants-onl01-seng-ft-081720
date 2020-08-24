@@ -7,7 +7,7 @@ class Shoe
   BRANDS << brand
    end
    def brand
-     
+     @brand
      BRANDS.uniq
    end
   def cobble
